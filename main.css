@@ -1,3 +1,25 @@
-body {
-  width: 300px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  color: rgba(196, 29, 29, 0.267);
+}
+
+#input {
+  display: block;
+  margin: 10px auto;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px auto;
 }
